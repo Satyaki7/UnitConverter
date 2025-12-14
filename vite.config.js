@@ -8,6 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: "/UnitConverter/",
   resolve: {
     alias: {
       "@": path.resolve(process.cwd(), "src"),
